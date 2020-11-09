@@ -1,0 +1,1 @@
+worker: bundle exec rake start_bot

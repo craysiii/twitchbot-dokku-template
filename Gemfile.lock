@@ -1,0 +1,33 @@
+GIT
+  remote: https://github.com/craysiii/twitchbot.git
+  revision: 44648762cbdbf734206cb0a3ba7dd76e47eacd7b
+  specs:
+    twitchbot (0.0.5)
+      faye-websocket (~> 0.10.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (2.7.6)
+    eventmachine (1.2.7)
+    faye-websocket (0.10.9)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
+    rake (13.0.1)
+    websocket-driver (0.7.3)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  rake
+  twitchbot!
+
+RUBY VERSION
+   ruby 2.6.3p62
+
+BUNDLED WITH
+   2.1.4
